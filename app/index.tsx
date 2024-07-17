@@ -7,7 +7,8 @@ export default function Index() {
     <View
       style={styles.workoutContainer}
     >
-      <Link href={{pathname: 'details'}}>Go to details</Link>
+      {/* PUT FLAT LIST HERE WIUTH WORKOUTS  */}
+      <Link href={{pathname: 'details', params: {slug:'bhf0knvd70ho9st'}}}>Go to details</Link>
       <Text>React Native</Text>
     </View>
   );
